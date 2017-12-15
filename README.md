@@ -1,0 +1,1 @@
+simple C++ program for parsing csv of currency info and calculating conversion rate between them
