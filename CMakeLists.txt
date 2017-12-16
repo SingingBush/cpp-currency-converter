@@ -3,4 +3,4 @@ project(crypto_currency_converter)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(crypto_currency_converter main.cpp)
+add_executable(crypto_currency_converter main.cpp currency.h)

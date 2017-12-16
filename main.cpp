@@ -7,21 +7,8 @@
 #include <sstream>
 #include <vector>
 
-class Currency {
-public:
-    std::string name;
-    std::string symbol;
-    long double value;
+#include "currency.h"
 
-public:
-    Currency(std::string name, std::string symbol, long double value) {
-        this->name = name;
-        this->symbol = symbol;
-        this->value = value;
-    }
-private:
-    friend std::ostream& operator<<(std::ostream&, const Currency&);
-};
 
 std::ostream& operator<<(std::ostream &strm, const Currency &c) {
     return strm << "Currency{name: " << c.name
