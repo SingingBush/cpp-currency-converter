@@ -23,4 +23,8 @@ private:
     friend std::ostream& operator<<(std::ostream&, const Currency&);
 };
 
+//long double convert(long double amount, Currency from, Currency to);
+long double convert(long double amount, Currency from, Currency to) {
+    return (amount * from.value) / to.value;
+}
 #endif //CRYPTO_CURRENCY_CONVERTER_CURRENCY_H
