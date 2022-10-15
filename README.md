@@ -1,6 +1,8 @@
 C++ CSV Parser Example
 ======================
 
+[![cmake](https://github.com/SingingBush/cpp-currency-converter/actions/workflows/cmake.yml/badge.svg)](https://github.com/SingingBush/cpp-currency-converter/actions/workflows/cmake.yml)
+
 A simple C++ program for parsing a CSV of crypto-currency values (as of Dec 2017) and calculating their equivelant value in another crypto-currency.
 
 ```
